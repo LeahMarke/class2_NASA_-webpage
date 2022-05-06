@@ -7,9 +7,10 @@
 body {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   height: 774px;
   width: 850px;
+  justify-content: space-between;
   /* border: 5px solid red; */
   margin: 30px;
 }
@@ -40,8 +41,10 @@ h1 {
 
 section {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: space-around;
+  height: 304px;
+  width: 850px;
+  /* align-items: stretch; */
   gap: 20px;
   background-color: rgba(136, 134, 133, 0.201);
 }
@@ -52,28 +55,28 @@ ul {
   list-style-type: none;
 }
 .social_media {
-  height: 304px;
+  /* height: 304px; */
   /* border: 5px solid orange; */
-  flex-basis: auto;
-  padding: 0 20px;
-  width: 270px;
+  /* flex-basis: auto; */
+  /* padding: 0 20px; */
+  /* width: 270px; */
 }
 .office_info {
   /* border: 5px solid yellow; */
-  align-self: center;
-  flex-basis: auto;
-  padding: 0 20px;
-  height: 304px;
-  width: 270px;
+  /* align-self: center; */
+  /* flex-basis: auto; */
+  /* padding: 0 20px; */
+  /* height: 304px; */
+  /* width: 270px; */
 }
 
 .contact {
   /* border: 5px solid purple; */
-  align-self: center;
-  flex-basis: auto;
-  padding: 0 20px;
-  height: 304px;
-  width: 270px;
+  /* align-self: center;
+  flex-basis: auto; */
+  /* padding: 0 20px; */
+  /* height: 304px; */
+  /* width: 270px; */
 }
 .name {
   width: 230px;
