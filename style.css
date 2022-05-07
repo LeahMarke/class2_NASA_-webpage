@@ -5,27 +5,19 @@
 }
 
 body {
+  font-family: "Titillium Web", sans-serif;
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
   height: 774px;
   width: 850px;
   justify-content: space-between;
-  /* border: 5px solid red; */
   margin: 30px;
 }
-/* .title_image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 h1 {
   color: white;
-  /* background: red; */
-
-  /* object-fit: contain; */
-  /* border: 5px solid green; */
+  font-size: 75px;
+  letter-spacing: 4px;
 }
 
 .title_image {
@@ -44,59 +36,53 @@ section {
   justify-content: space-around;
   height: 304px;
   width: 850px;
-  /* align-items: stretch; */
   gap: 20px;
   background-color: rgba(136, 134, 133, 0.201);
 }
+
 h2 {
   padding: 20px 0;
 }
+
 ul {
   list-style-type: none;
 }
-.social_media {
-  /* height: 304px; */
-  /* border: 5px solid orange; */
-  /* flex-basis: auto; */
-  /* padding: 0 20px; */
-  /* width: 270px; */
-}
-.office_info {
-  /* border: 5px solid yellow; */
-  /* align-self: center; */
-  /* flex-basis: auto; */
-  /* padding: 0 20px; */
-  /* height: 304px; */
-  /* width: 270px; */
+
+li {
+  margin-bottom: 10px;
 }
 
-.contact {
-  /* border: 5px solid purple; */
-  /* align-self: center;
-  flex-basis: auto; */
-  /* padding: 0 20px; */
-  /* height: 304px; */
-  /* width: 270px; */
+.office_info > h2 {
+  text-transform: uppercase;
 }
+
+.office_info > p {
+  margin-bottom: 5px;
+}
+
+.contact > h2 {
+  text-transform: uppercase;
+}
+
 .name {
   width: 230px;
   height: 25px;
   margin-bottom: 6px;
 }
+
 .message {
   height: 60px;
   width: 230px;
   margin-bottom: 8px;
 }
+
 input {
-  /* outline: none; */
   border-style: hidden;
 }
+
 button {
   background-color: rgb(61, 58, 58);
   color: white;
   padding: 5px 10px;
   letter-spacing: 2px;
-
-  /* width: */
 }
